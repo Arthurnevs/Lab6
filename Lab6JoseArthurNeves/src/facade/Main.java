@@ -11,11 +11,11 @@ public class Main {
 		f.adicionaCombo("Seu Olavo", "X-burguer + suco", "X-burguer com suco de maracuja", 0.25,
 				"X-burguer - Hamburguer de carne com queijo e calabresa, Suco - Suco de maracuja (copo)");
 		
-		System.out.println(f.exibeProduto("Seu Olavo","X-burguer + suco", "X-burguer com suco de maracuja"));
+		System.out.println(f.exibeProduto("X-burguer + suco", "X-burguer com suco de maracuja","Seu Olavo"));
 
 		f.editaCombo("X-burguer + suco", "X-burguer com suco de maracuja", "Seu Olavo", 0.5);
 		
-		System.out.println(f.exibeProduto("Seu Olavo","X-burguer + suco", "X-burguer com suco de maracuja"));
+		System.out.println(f.exibeProduto("X-burguer + suco", "X-burguer com suco de maracuja","Seu Olavo"));
 		
 	}
 
